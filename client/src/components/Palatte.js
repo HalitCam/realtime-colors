@@ -19,4 +19,3 @@ function Palatte({ activeColor }) {
 
 export default Palatte;
 
-pp
