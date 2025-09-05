@@ -3,6 +3,7 @@ import "./App.css";
 import { useEffect, useState } from "react";
 import { init, subscribe } from "./socketApi";
 import Palatte from "./components/Palatte";
+// Useeefect constructed
 
 function App() {
 	const [activeColor, setActiveColor] = useState("#282c34");
