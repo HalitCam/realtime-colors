@@ -1,4 +1,4 @@
-import io from "socket.io-client";
+import io from "socket.io-client"; // Ich habe die instalierte Module hinzugefügt
 
 let socket;
 
