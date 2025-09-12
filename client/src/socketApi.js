@@ -16,8 +16,10 @@ export const send = (color) => {
     socket.emit('newColor', color);
 }
 
-export const subscribe = (color) => {
+export const subscribe = (cb) => {
     socket.on ('receive', (color) => { //on methodu ile socket i dinliyorum
-        console.log(color)
+        console.log(color);
+        cb(color);
+       
     })
 }
